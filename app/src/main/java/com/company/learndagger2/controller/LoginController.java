@@ -6,13 +6,10 @@ import com.company.learndagger2.RetryWithDelay;
 import com.company.learndagger2.http.BaseResp;
 import com.company.learndagger2.http.HttpUtils;
 import com.company.learndagger2.http.LoginModel;
-import com.company.learndagger2.http.LoginResp;
 
 import javax.inject.Inject;
-import javax.inject.Singleton;
 
 import rx.Observer;
-import rx.Scheduler;
 import rx.android.schedulers.AndroidSchedulers;
 import rx.schedulers.Schedulers;
 

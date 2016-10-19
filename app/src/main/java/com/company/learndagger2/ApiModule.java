@@ -3,7 +3,6 @@ package com.company.learndagger2;
 import com.company.learndagger2.http.HttpUtils;
 
 import java.io.IOException;
-import java.lang.reflect.Type;
 
 import javax.inject.Singleton;
 
@@ -56,7 +55,7 @@ public class ApiModule {
         Retrofit retrofit;
         if (BuildConfig.LOG_DEBUG) {
             retrofit = new Retrofit.Builder()
-                    .baseUrl("http://www.dianjinmia.com:28080")
+                    .baseUrl("http://www.dianjinmiao.com:28080")
                     .addConverterFactory(GsonConverterFactory.create())
                     .addCallAdapterFactory(RxJavaCallAdapterFactory.create())
                     .client(client)
